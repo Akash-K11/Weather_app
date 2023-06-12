@@ -13,9 +13,3 @@ humidity = weather_dict['current']['humidity']
 output1 = f"In {city}, the temperature is currently {temp_celcius} degree celcius, humidity is {humidity} percent and wind speed is {wind_kph} kilometres per hour."
 print(output1)
 speaker.Speak(output1)
-
-'''
-https://www.weatherapi.com/my/
-https://www.weatherapi.com/docs/
-https://stackoverflow.com/questions/38540005/how-to-convert-text-to-speech-in-python-3-5-on-windows-10
-'''
